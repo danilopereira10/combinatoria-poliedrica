@@ -8,9 +8,11 @@ Se na primeira linha estivesse escrito "caso2" (sem as aspas), então está send
 Nesse caso, na linha subsequente você não precisaria fornecer o vetor c, diferentemente de como é feito no "caso1" (sem as aspas).
 
 Nas linhas subsequentes, tanto para o "caso1" quanto para o "caso2", você deve fornecer as equações do poliedro conforme explicitado no enunciado do laboratório. Por exemplo:
+
 -1x1 + 0x2 <= -1
 -1x1 + -1x2 <= -5
 2x1 + 1x2 <= 8
+
 E na última linha você escrever "fim" (sem as aspas) e pressionar enter.
 
 
