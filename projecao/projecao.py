@@ -19,6 +19,7 @@ if (caso == "caso1"):
 else:
     pass
     #não precisa ler vetor de direção se não for o caso1.
+#Processando entrada:
 while s != "fim":
     try:
         s = input().split("+")
@@ -40,9 +41,9 @@ while s != "fim":
             exit(1)
         break           
 
-
-m=0
-rodou=0
+#Entrada processada
+m=0 #Variável utilizada para resolver o problema de detectar se um poliedro é vazio ou não
+rodou=0 #Variável utilizada para saber se a projeção já foi feita (é usada para o Problema 1)
 while ((caso == "caso1" and not rodou) or (caso == "caso2" and len(A) != 0 and m < len(A[0]))):
     
     N = []
@@ -104,6 +105,7 @@ while ((caso == "caso1" and not rodou) or (caso == "caso2" and len(A) != 0 and m
     m+=1
     rodou = 1
 
+#Projeções Realizadas. Hora de mostrar os resultados.
 if (caso == "caso1"):
     print("Poliedro P(D,d):")
     print("D=")
