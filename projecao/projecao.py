@@ -5,8 +5,8 @@ b = []
 j = 0
 s = ""
 caso = input()
-#caso 1
-#caso 2
+#caso 1 = problema 1
+#caso 2 = problema 2
 if (caso != "caso1" and caso != "caso2"):
     print("Escreva uma opção entre caso1 e caso2")
     exit(1)
